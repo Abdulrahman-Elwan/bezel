@@ -1,0 +1,226 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    z-index: 999;
+}
+.border_start{
+    border-left: 1px solid #00000061;
+}
+.border_start i{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.border_start i:hover{
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+.hero{
+    height: 100vh;
+}
+.hero img{
+    height: 100vh;
+    filter: brightness(0.6);
+}
+.hero h5{
+    font-size: 45px;
+}
+.next{
+    top: 50%;
+    left: -4px;
+    width: 60px;
+    border: 1px solid #fff;
+    height: 50px;
+    transition: all 0.7s ease;
+}
+.prev{
+    top: 43.2%;
+    left: -4px;
+    width: 60px;
+    border: 1px solid #fff;
+    height: 50px;
+    border-bottom: none;
+    transition: all 0.7s ease;
+}
+.next:hover,
+.prev:hover{
+    background-color: #282828;
+}
+
+
+
+
+
+
+
+
+
+.text_animate{
+    position: relative;
+}
+.text_animate::after{
+    content: "";
+    animation: text_animate 15s  1s infinite;
+}
+@keyframes text_animate {
+    0% {content: "a|";}
+    2% {content: "ap|";}
+    4% {content: "app|";}
+    6% {content: "apps|";}
+    8% {content: "apps|";}
+    10% {content: "apps";}
+    12% {content: "apps|";}
+    14% {content: "apps";}
+    16% {content: "apps|";}
+    18% {content: "apps";}
+    20% {content: "apps|";}
+    22% {content: "app|";}
+    24% {content: "ap|";}
+    26% {content: "a|";}
+    28% {content: "a|";}
+    30% {content: "w|";}
+    32% {content: "we|";}
+    34% {content: "web|";}
+    36% {content: "webS|";}
+    38% {content: "webSi|";}
+    40% {content: "webSit|";}
+    42% {content: "webSite|";}
+    44% {content: "webSites|";}
+    46% {content: "webSites|";}
+    48% {content: "webSites";}
+    50% {content: "webSites|";}
+    52% {content: "webSite|";}
+    54% {content: "webSit|";}
+    56% {content: "webSi|";}
+    58% {content: "webS|";}
+    60% {content: "web|";}
+    62% {content: "we|";}
+    64% {content: "w|";}
+    66% {content: "|";}
+    68% {content: "s|";}
+    70% {content: "so|";}
+    72% {content: "sof|";}
+    74% {content: "soft|";}
+    76% {content: "softW|";}
+    78% {content: "softWa|";}
+    80% {content: "softWar|";}
+    82% {content: "softWare|";}
+    84% {content: "softWares|";}
+    86% {content: "softWare|";}
+    88% {content: "softWar|";}
+    90% {content: "softWa|";}
+    92% {content: "softW|";}
+    94% {content: "soft|";}
+    96% {content: "sof|";}
+    98% {content: "so|";}
+    99% {content: "s|";}
+    100% {content: "|";}
+}
+
+
+
+
+
+
+
+
+.team h2,
+.prices h2 {
+    position: relative;
+}
+.team h2::after,
+.prices h2::after {
+    content: "C";
+    font-size: 80px;
+    height: 100%;
+    opacity: 5%;
+    position: absolute;
+    left: 48%;
+    top: -40px;
+    z-index: -1;
+}
+.team .item{
+    cursor: pointer;
+}
+.team .item .text{
+    transition: all 0.7s ease;
+}
+.team .item:hover .text{
+    top: 0 !important;
+}
+hr{
+    opacity: 5%;
+}
+
+
+
+
+
+
+
+
+.service h2::after{
+    content: "W";
+    font-size: 70px;
+    font-weight: 700;
+    position: absolute;
+    left: -7px;
+    top: -30px;
+    opacity: 10%;
+}
+.service i{
+    font-size: 12px !important;
+}
+.service span{
+    font-size: 15px !important;
+}
+
+@media (min-width:992px) {
+    .gold_gard{
+        transform: scale(1.09);
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+
+
+
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+}
+.carousel img {
+    width: 130px;
+    top: 0px;
+    z-index: 2;
+}
+
+.carousel-item .content {
+    max-width: 600px;
+    padding-top: 120px !important;
+}
+
+
+
+
+.map{
+    min-height: 400px;
+}
+.contact_text h2 {
+    position: relative;
+}
+.contact_text h2::after {
+    content: "G";
+    font-size: 80px;
+    height: 100%;
+    opacity: 10%;
+    position: absolute;
+    left: -5px;
+    top: -40px;
+}
